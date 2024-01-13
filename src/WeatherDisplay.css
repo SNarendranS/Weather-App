@@ -1,0 +1,75 @@
+/* WeatherDisplay.css (or add directly in your component) */
+.WeatherDisplayContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f8f9fa;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 8px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2185d0;
+  }
+  
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #d7e6ef;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background: linear-gradient(to right, #3498db, #1abc9c); /* Gradient background */
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  }
+  
+  /* Add this CSS to your existing stylesheet or create a new one */
+
+.weatherInfo {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .weatherInfo p {
+    margin: 8px 0;
+  }
+  
+  .weatherInfo span {
+    font-weight: bold;
+  }
+  
+  .weatherInfo .location {
+    color: #3498db;
+  }
+  
+  .weatherInfo .temperature {
+    color: #e74c3c;
+  }
+  
+  .weatherInfo .weatherCondition {
+    color: #2ecc71;
+  }
+    
